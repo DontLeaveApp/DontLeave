@@ -1,15 +1,92 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    color: #333;
-    max-width: 800px;
-    margin: 0 auto;
+html {
+  background-color: rgb(226, 226, 226);
+  font-family: 'IBM Plex Sans';
 }
 
-h1 {
-    color: #2c3e50;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
+header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0%;
+}
+
+section {
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  position: sticky;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+footer > a {
+  color: white;
+}
+
+.ibm-plex-sans-regular {
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-bold {
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-sans-regular-italic {
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-sans-bold-italic {
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: auto auto auto 5%;
+  grid-template-rows: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-content: center;
+}
+
+.headerGrid>div {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  width: 50%;
+}
+
+.headerGrid>div>a>img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  width: 100%;
 }

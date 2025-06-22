@@ -33,5 +33,5 @@ The main point is that I get this in a working state, good enough to ship basica
 </div>
 
 ## Bugs
-If you find a bug ( <;;;0' <-- issa lil' bug!)
-Made with Hack Club Spaces 💖
+If you find a bug, ( <;;;0' <-- issa lil' bug!) [create an issue and report it](https://github.com/orangetreefrog4/DontLeave/issues) (It does nothing but help me make the app better)!
+Made with <3 

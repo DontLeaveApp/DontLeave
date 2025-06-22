@@ -1,14 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="/s/dontleave/styles.css">
-    <script src="/s/dontleave/script.js" defer></script>
+    <title>DontLeave</title>
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google icons-->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/orangetreefrog4/DontLeave/refs/heads/main/styles.css">
+    <script src="https://raw.githubusercontent.com/orangetreefrog4/DontLeave/refs/heads/main/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
+
 <body>
-    <h1>Welcome to my website!</h1>
-    <p>This is a paragraph on my new site.</p>
+    <header>
+        <div class="headerGrid">
+            <div>
+                <a href="./" style="color: white;">
+                    <h1>DontLeave</h1>
+                </a>
+            </div>
+            <div>
+                <h1>DontLeave</h1>
+            </div>
+            <div>
+                <!--SPACER-->
+            </div>
+            <div>
+                <!--NAV BUTTON-->
+                <span>
+                    <img id="navButton" src="./assets/burger.png"
+                        onmouseenter="document.getElementById('navButton').src = './assets/burger-mouseover.png';"
+                        onmouseleave="document.getElementById('navButton').src = './assets/burger.png';"
+                        onclick="menudisp(0,'./');">
+                </span>
+            </div>
+        </div>
+        <!--NAV CONTENT-->
+        <div id="navCont">
+        </div>
+    </header>
+    <section>
+        <h1>DontLeave</h1>
+    </section>
+    <footer>
+        <h1>DontLeave</h1>
+        <p>Made with <3 by <a href="https://github.com/orangetreefrog4/">orangetreefrog4</a>!</p>
+        <p>Found a bug? <a href="https://github.com/orangetreefrog4/DontLeave/issues">Create an issue and report it!</a>(It does nothing but help me make the app better)!</p>
+        <p>DontLeave is open source! <a href="https://github.com/orangetreefrog4/dontleave/">View the code on Github! (...and maybe give it a star? ',:) )</a></p>
+    </footer>
 </body>
+
 </html>
