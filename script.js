@@ -1,4 +1,4 @@
-function menudisp(shown) {
+function menudisp(shown, dirNum) {
     let buttonAttrHidden = `menudisp(0);`
     let buttonAttrShown = `menudisp(1);`
     if (shown == 0) {
