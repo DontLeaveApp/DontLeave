@@ -30,6 +30,22 @@ section {
   color: black;
 }
 
+scrollfooter {
+  background-color: black;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  bottom: 0;
+  color: white;
+  position: sticky;
+}
+
+scrollfooter > * {
+  margin: 0;
+  background-color: black;
+}
+
 footer {
   background-color: black;
   width: 100%;
@@ -40,18 +56,12 @@ footer {
   color: white;
 }
 
-scrollfooter {
+footer > * {
+  margin: 0;
   background-color: black;
-  position: sticky;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  bottom: 0;
-  color: white;
 }
 
-footer > a {
+footer > * > a {
   color: white;
 }
 
