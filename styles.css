@@ -91,3 +91,7 @@ footer > a {
   width: 100%;
   width: 100%;
 }
+
+#map {
+  height: 180px;
+}
