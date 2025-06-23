@@ -32,11 +32,22 @@ section {
 
 footer {
   background-color: black;
-  position: absolute;
   width: 100%;
   padding: 0px;
   margin: 0px;
   text-align: center;
+  bottom: 0;
+  color: white;
+}
+
+scrollfooter {
+  background-color: black;
+  position: sticky;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  bottom: 0;
   color: white;
 }
 
@@ -90,8 +101,4 @@ footer > a {
   margin: auto;
   width: 100%;
   width: 100%;
-}
-
-#map {
-  height: 180px;
 }
