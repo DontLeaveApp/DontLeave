@@ -3,8 +3,8 @@
 
 <head>
     <title>DontLeave</title>
-    <link rel="stylesheet" href="./dontleave/styles.css">
-    <script src="./dontleave/script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
 
     <!--Google icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
 
-        <!--Leaflet-->
+    <!--Leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -37,7 +37,8 @@
             <div>
                 <!--NAV BUTTON-->
                 <span>
-                    <img id="navButton" src="https://raw.githubusercontent.com/orangetreefrog4/DontLeave/refs/heads/main/burger.png"
+                    <img id="navButton"
+                        src="https://raw.githubusercontent.com/orangetreefrog4/DontLeave/refs/heads/main/burger.png"
                         onmouseenter="document.getElementById('navButton').src = './assets/burger-mouseover.png';"
                         onmouseleave="document.getElementById('navButton').src = './assets/burger.png';"
                         onclick="menudisp(0,'./');">
@@ -50,12 +51,15 @@
     </header>
     <section>
         <h1>DontLeave</h1>
+        <div id="map"></div>
     </section>
     <footer>
         <h1>DontLeave</h1>
         <p>Made with <3 by <a href="https://github.com/orangetreefrog4/">orangetreefrog4</a>!</p>
-        <p>Found a bug? <a href="https://github.com/orangetreefrog4/DontLeave/issues">Create an issue and report it!</a>(It does nothing but help me make the app better)!</p>
-        <p>DontLeave is open source! <a href="https://github.com/orangetreefrog4/dontleave/">View the code on Github! (...and maybe give it a star? ',:) )</a></p>
+        <p>Found a bug? <a href="https://github.com/orangetreefrog4/DontLeave/issues">Create an issue and report
+                it!</a>(It does nothing but help me make the app better)!</p>
+        <p>DontLeave is open source! <a href="https://github.com/orangetreefrog4/dontleave/">View the code on Github!
+                (...and maybe give it a star? ',:) )</a></p>
     </footer>
 </body>
 
