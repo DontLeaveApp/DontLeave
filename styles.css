@@ -28,6 +28,7 @@ section {
   padding-right: 2.5%;
   background-color: white;
   color: black;
+  z-index: -1;
 }
 
 scrollfooter {

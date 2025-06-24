@@ -21,3 +21,7 @@ function menudisp(shown, dirNum) {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Website loaded successfully!');
 });
+
+function setupPage() {
+    document.getElementById("htmlBody").style = `height: ${window.innerHeight}px;`
+}
