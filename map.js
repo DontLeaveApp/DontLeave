@@ -1,8 +1,6 @@
 function setupMap() {
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition((position) => {
-            doSomething(position.coords.latitude, position.coords.longitude)
-
             var map = L.map('map').setView([position.coords.latitude, position.coords.longitude], 13);
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
